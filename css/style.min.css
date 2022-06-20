@@ -214,7 +214,11 @@ body {
 
 @media (max-width: 374px) {
   .btn {
+    font-size: 13px;
+  }
+  .btn span {
     font-size: 14px;
+    margin-left: 8px;
   }
 }
 .timer {
