@@ -300,6 +300,7 @@ body {
   background-color: rgba(150, 151, 231, 0.102);
   width: fit-content;
   position: relative;
+  transition: 0.3s;
 }
 .decor-block::before, .decor-block::after {
   content: "";
@@ -337,6 +338,7 @@ body {
   line-height: 1.333;
   letter-spacing: -1px;
   margin-bottom: 50px;
+  transition: 0.3s;
 }
 
 @media (max-width: 500px) {
@@ -443,6 +445,7 @@ body {
 .schedule__img {
   width: 100%;
   margin-bottom: 145px;
+  transition: 0.3s;
 }
 .schedule__desc-info {
   display: flex;
@@ -452,6 +455,7 @@ body {
 .schedule__desc-items {
   width: 100%;
   max-width: 440px;
+  transition: 0.3s;
 }
 .schedule__desc-item {
   display: flex;
@@ -555,6 +559,7 @@ body {
   font-weight: 500;
   margin-bottom: 60px;
   letter-spacing: 2px;
+  transition: 0.3s;
 }
 .example__text {
   font-size: 18px;
@@ -563,6 +568,7 @@ body {
   max-width: 520px;
   margin-bottom: 75px;
   letter-spacing: -0.5px;
+  transition: 0.3s;
 }
 .example__items {
   display: flex;
@@ -572,6 +578,7 @@ body {
   width: 100%;
   max-width: 480px;
   margin-right: 100px;
+  transition: 0.3s;
 }
 .example__item:last-child {
   margin-right: 0;
@@ -685,12 +692,14 @@ body {
   margin-bottom: 85px;
   position: relative;
   z-index: 1;
+  transition: 0.3s;
 }
 .description__info-text {
   font-size: 18px;
   line-height: 1.333;
   position: relative;
   z-index: 1;
+  transition: 0.3s;
 }
 .description__desc-block {
   display: flex;
@@ -705,10 +714,12 @@ body {
   max-width: 575px;
   width: 100%;
   margin-right: 80px;
+  transition: 0.3s;
 }
 .description__desc-text-block {
   max-width: 100%;
   width: 100%;
+  transition: 0.3s;
 }
 .description__desc-text {
   font-size: 18px;
@@ -798,6 +809,7 @@ body {
   margin-left: -24px;
   max-width: 795px;
   margin-bottom: 10px;
+  transition: 0.3s;
 }
 .benefits__item:last-child {
   margin-bottom: 0;
@@ -898,6 +910,7 @@ body {
 }
 .info__text-block {
   max-width: 480px;
+  transition: 0.3s;
 }
 .info__text-title {
   font-size: 20px;
@@ -987,6 +1000,7 @@ body {
   letter-spacing: 2px;
   margin-bottom: 60px;
   font-weight: 500;
+  transition: 0.3s;
 }
 .community__items {
   display: grid;
@@ -1087,6 +1101,7 @@ body {
   max-width: 575px;
   font-size: 18px;
   line-height: 1.333;
+  transition: 0.3;
 }
 .footer .btn__wrapper {
   max-width: 480px;
@@ -1179,4 +1194,12 @@ body {
   .footer .timer__wrapper {
     padding: 30px 10px;
   }
+}
+.scroll-hidden {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.scroll-hidden.scroll-hidden-right {
+  opacity: 0;
+  transform: translateX(100px);
 }
